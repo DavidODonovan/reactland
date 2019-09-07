@@ -26,4 +26,6 @@ The D3 logic takes care of all data binding, rendering and transitioning between
 
 The React components take care of responsive design by forcing the svg canvas to take on various sizes., pass dims down as props, fetch, format and feed data to D3.
 
+Example 'Football' pattern also demonstrates the D3 'General Update Pattern', in a simple to reason about manner. Hopefully making this notoriously difficult concept fairly easy to comprehend.
+
 Football example simple illustrates the D3 'General Update Pattern' - which is a source of great confusion for everyone starting out with D3.js. It doesn't have to be so hard; this visualisation, in conjunction with the code base, should give you enough of an understanding of the pattern to start creating dynamic interactive visualisations of your own, with ever changing data sets.
