@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import { shuffle } from 'd3-array';
-import { ReactLand } from '../../';
-import D3Nexus from './D3Nexus';
+import { ReactLand } from '../';
+import { D3Alphabet }  from 'd3land';
 
 const Alpha=(props)=>{
   const [data, setData] = useState([]);
@@ -33,7 +33,7 @@ const Alpha=(props)=>{
         <button onClick={generateData}>update data</button>
       </div>
 
-      <ReactLand D3Class={D3Nexus} data={data}/>
+      <ReactLand D3Class={D3Alphabet} data={data}/>
     </div>
   );
 }

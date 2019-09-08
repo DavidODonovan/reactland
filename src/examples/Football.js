@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import { shuffle } from 'd3-array';
-import { ReactLand } from '../../index';
-import D3Nexus from './D3Nexus';
+import { ReactLand } from '../';
+import { D3FootballTeam }  from 'd3land';
 
 const Coach=(props)=>{
   const [players, setPlayers] = useState([]);
@@ -49,7 +49,7 @@ const Coach=(props)=>{
       <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <button onClick={updatePlayers}>update data</button>
       </div>
-      <ReactLand D3Class={D3Nexus} data={players}/>
+      <ReactLand D3Class={D3FootballTeam} data={players}/>
     </div>
   );
 }

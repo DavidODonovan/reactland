@@ -2,9 +2,9 @@ import React from 'react';
 import { Provider } from 'react-dims';
 import PropTypes from 'prop-types';
 import ReactNode from './ReactNode';
-import ThePattern from './ThePattern';
-import Football from './examples/D3FootballTeam';
-import Alphabet from './examples/D3Alphabet';
+import { ThePattern } from 'd3land';
+import Football from './examples/Football';
+import Alphabet from './examples/Alphabet';
 
 const ReactLand=(props)=>{
   if(props.example==='alphabet'){
