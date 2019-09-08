@@ -1,7 +1,6 @@
-<p align="center"><img src="logo.svg" width=250></p>
 <h2 align="center">ReactLand</h2>
 <p align="center">
-<strong>Fully responsive D3 charts inside of React.</strong>
+<strong>Fully responsive D3 visualisations inside of React.</strong>
 <br><br>
 <a href="https://npmjs.com/package/reactland"><img src="https://img.shields.io/npm/dw/reactland.svg"></a>
 
@@ -14,6 +13,7 @@
 </p>
 
 A demonstration pattern for creating loosely coupled, dynamic and fully responsive data visualisations by combining D3 and React.
+A demonstration set of React bindings to help build dynamic, responsive, scaleable, loosely coupled D3 visualisations inside of React.
 
 Requires React version 16.0.0 or greater.
 Leverages <strong>react-dims</strong> and <strong>D3Land</strong><---provide links

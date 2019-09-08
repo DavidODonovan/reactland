@@ -1,9 +1,6 @@
-import React from 'react';
+import ReactNode from './ReactNode';
+import ReactLand from './ReactLand';
 
-const Reactland=()=>{
-  return (
-    <div>placeholder component; nothing to see here yet</div>
-  )
-}
+export { ReactLand, ReactNode };
 
-export default Reactland
+export default ReactLand;
