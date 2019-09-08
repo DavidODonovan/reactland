@@ -22,9 +22,11 @@
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
+    "d3land": "^1.0.0",
     "react": "^16.9.0"
   },
   "peerDependencies": {
+    "d3land": "^1.0.0",
     "react": "^16.8.0"
   },
   "files": [

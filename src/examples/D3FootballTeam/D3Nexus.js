@@ -1,5 +1,5 @@
 import { select } from 'd3-selection';
-import { Dimensions, Scales, Axes } from '../../../D3Land/';
+import { Dimensions, Scales, Axes } from 'd3land';
 import Circles from './Circles';
 
 class D3Nexus {

@@ -1,5 +1,5 @@
 import { select } from 'd3-selection';
-import { Dimensions, Scales, Axes } from '../../../../D3Land';
+import { Dimensions, Scales, Axes } from 'd3land';
 import Letters from './Letters';
 
 class D3Nexus {
