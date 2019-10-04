@@ -1,6 +1,6 @@
 {
   "name": "reactland",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "demo component for fully responsive d3 charts in react",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "context",
     "layout",
     "dimensions",
-    "reactland"
+    "reactland",
+    "responsive"
   ],
   "license": "ISC",
   "author": "David O'Donovan <david@davidodonovan.com> ",
