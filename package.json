@@ -8,10 +8,12 @@
   },
   "keywords": [
     "react",
+    "responsive",
+    "d3"
     "context",
     "layout",
     "dimensions",
-    "reactland"
+    "reactland",
   ],
   "license": "ISC",
   "author": "David O'Donovan <david@davidodonovan.com> ",
