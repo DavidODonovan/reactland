@@ -17,6 +17,12 @@
 </p>
 
 
-A demonstration pattern for dynamic, fully responsive data visualisations using a set of React components loosely coupled with D3JS.
+A demonstration React component for dynamic, fully responsive D3 data visualisations.
 
-Under development. Will require React version 16.0.0 or greater.
+Requires React 16.0.0 or higher and D3.js.
+
+```code
+npm i reactland
+
+```
+<strong>Usage</strong>
