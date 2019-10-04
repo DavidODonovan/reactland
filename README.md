@@ -1,6 +1,6 @@
 <h2 align="center">ReactLand</h2>
 <p align="center">
-<strong>Fully responsive D3 visualisations inside of React.</strong>
+<strong>A React component that demonstrates fully responsive D3 charts.</strong>
 <br><br>
 
 <!-- downloads per week-->
@@ -18,11 +18,30 @@
 </a>
 
 </p>
+Requires React 16.0.0 or higher.
 
-A demonstration React component for fully responsive D3 charts. Requires React 16.0.0 or higher.
+Currently, the primary purpose of this React component is to quickly demonstrate some examples of fully responsive D3 visualisations inside of a React app.
+
 
 ```code
 npm i reactland
 
 ```
 <strong>Usage</strong>
+
+Nest this component anywhere inside of your app, whilst ensuring you style the parent component with a reasonable CSS height property.
+
+Toggle between the two example charts by specifying a prop of 'example' with a value of either 'alphabet' or 'football';
+
+```code
+import ReactLand from 'reactland';
+
+function App() {
+  return (
+    <div style={{height: '100vh'}}>
+      <ReactLand example='alphabet'/>
+    </div>
+  )
+};
+
+```
